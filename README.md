@@ -1,11 +1,11 @@
 # Vernetztes Wissen
 
-## Perspektiven für die digitalen Geschichtswissenschaften im 21. Jahrhundert
+## Graphentechnologien in DH-Projekten
 
 ### Andreas Kuczera
 
-The data of this presentation can be found at https://github.com/kuczera/VernetztesWissen/
+The data of this presentation can be found at https://github.com/kuczera/VernetzteGraphprojekte/
 
-The online version of this presentation can be found at https://kuczera.github.io/VernetztesWissen
+The online version of this presentation can be found at https://kuczera.github.io/VernetzteGraphprojekte
 
 Released under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/), Andreas Kuczera
