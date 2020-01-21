@@ -1,6 +1,6 @@
 # Vernetztes Wissen
 
-## Graphentechnologien in DH-Projekten
+## Perspektiven für die digitalen Geisteswissenschaften
 
 ### Andreas Kuczera
 
