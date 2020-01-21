@@ -337,6 +337,60 @@
   </div>
 
   <div class="step">
+
+    <h3 class="red up-25">
+
+    </h3>
+    <div class="row">
+      <div class="six columns first">
+        Regesta Imperii
+        <figure class="mfp-lightbox"><a href="resources/img/ReggH4-1289.svg"><img src="resources/img/ReggH4-1289.svg" alt="Regesta Imperii"></a>
+        </figure>
+        <p class="x-small down">
+          Projektwebseite: <a href="http://www.regesta-imperii.de">http://www.regesta-imperii.de
+          </a> | <a href="resources/img/ReggF3-WikidataPersons.svg">Graphschema</a>
+        </p>
+      </div>
+
+      <div class="six columns last">
+        <ul class="even-left medium">
+          <li>
+            Die Regesta Imperii bieten deutschsprachige Zusammenfassungen (<a href="http://www.regesta-imperii.de/id/cf75356b-bd0d-4a67-8aeb-3ae27d1dcefa">Regest</a>) der rechtlich relevanten Inhalte von Kaiser-, König und Papsturkunden
+          </li>
+          <li>
+            Wurde 1829 vom Frankfurter Stadtbibliothekar Johann Friedrich Böhmer begründet
+          </li>
+          <li>
+            Inzwischen über 180.000 Regesten im Volltext online verfügbar
+          </li>
+          <li>
+            Register werden sukzessive digital aufgearbeitet und eingebunden (<a href="https://digitale-methodik.adwmainz.net/mod5/5c/slides/graphentechnologien/bilder/RI-Regest-im-Graphen.png">Beispiel 1</a>, <a href="https://digitale-methodik.adwmainz.net/mod5/5c/slides/graphentechnologien/bilder/Regesten-Graph-Beispiel.png">Beispiel
+              2</a>).
+          </li>
+          <li>
+            <pre><code class="linenumbers js">// Robert II. von Flandern mit Netzwerk
+         MATCH (n:IndexPerson)-[:PERSON_IN]->(r:Regesta)<-[:PERSON_IN]-(m:IndexPerson)
+         WHERE n.registerId = 'H4P01822'
+         RETURN *;</code></pre>
+          </li>
+          <li>
+            <a href="https://digitale-methodik.adwmainz.net/mod5/5c/slides/graphentechnologien/RI.html">Beispielpräsentation mit den Regesten Kaiser Heinrichs IV.</a>
+          </li>
+        </ul>
+        <p class="right">
+          <a href=http://jlu-buster.mni.thm.de:10200/browser/> <div class="row">
+            <div class="four columns">
+              <img class="pull-up" src="resources/img/neo4j_logo.svg" />
+            </div>
+      </div>
+      </a>
+      </p>
+    </div>
+  </div>
+  </div>
+
+  <div class="step">
+
     <h3 class="red up-25"><strong>ReGroup</strong>
     </h3>
     <div class="row">
